@@ -1,0 +1,4 @@
+mysql -u staff_user -p nfu
+Staff@1234
+UPDATE Equipment SET eStatus = '報廢' WHERE eId = 1;
+should fail
